@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Heading">
+        <item name="android:fontFamily">@font/oldenburg_regular</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">40dp</item>
+        <item name="android:gravity">center</item>
+    </style>
+    <style name="Heading2">
+        <item name="android:fontFamily">@font/oldenburg_regular</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">16dp</item>
+        <item name="android:gravity">center</item>
+    </style>
+    <style name="cardTitle">
+        <item name="android:fontFamily">@font/oldenburg_regular</item>
+        <item name="android:textColor">@color/brown</item>
+        <item name="android:textSize">14dp</item>
+        <item name="android:gravity">center</item>
+    </style>
+    <style name="subtitle">
+        <item name="android:fontFamily">@font/oldenburg_regular</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">12dp</item>
+        <item name="android:gravity">center</item>
+    </style>
+    <style name="subtitlebrown">
+        <item name="android:fontFamily">@font/oldenburg_regular</item>
+        <item name="android:textColor">@color/brown</item>
+        <item name="android:textSize">12dp</item>
+        <item name="android:gravity">center</item>
+    </style>
+    <style name="subtitle2brown">
+        <item name="android:fontFamily">@font/oldenburg_regular</item>
+        <item name="android:textColor">@color/brown</item>
+        <item name="android:textSize">10dp</item>
+        <item name="android:gravity">center</item>
+    </style>
+    <style name="subtitle2">
+        <item name="android:fontFamily">@font/oldenburg_regular</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">10dp</item>
+        <item name="android:gravity">center</item>
+    </style>
+    <style name="buttonWhite" parent="Widget.AppCompat.Button">
+        <item name="android:textSize">12dp</item>
+        <item name="android:textAppearance">@style/subtitle</item>
+        <item name="android:textColor">@color/brown</item>
+        <item name="android:background">@drawable/button_white</item>
+        <item name="android:padding">0dp</item>
+    </style>
+    <style name="buttonOrange" parent="Widget.AppCompat.Button">
+        <item name="android:textSize">12dp</item>
+        <item name="android:textAppearance">@style/subtitle</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:background">@drawable/button_orange</item>
+        <item name="android:padding">0dp</item>
+    </style>
+    <style name="iconButton" parent="Widget.AppCompat.Button">
+        <item name="android:textSize">12dp</item>
+        <item name="android:textAppearance">@style/subtitle</item>
+        <item name="android:textColor">@color/brown</item>
+        <item name="android:padding">0dp</item>
+    </style>
+    <style name="searchBar" parent="Widget.AppCompat.Button">
+        <item name="android:textSize">12dp</item>
+        <item name="android:textAppearance">@style/subtitle</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:background">@drawable/searchbar_bg</item>
+    </style>
+    <style name="SearchBarStyle" parent="Widget.AppCompat.EditText">
+        <item name="android:background">@color/white</item>
+        <item name="android:padding">10dp</item>
+        <item name="android:layout_marginBottom">0dp</item>
+        <item name="android:layout_marginTop">0dp</item>
+        <item name="android:layout_marginStart">0dp</item>
+        <item name="android:layout_marginEnd">0dp</item>
+    </style>
+</resources>
